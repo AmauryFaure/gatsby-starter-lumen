@@ -31,9 +31,9 @@ module.exports = {
   author: {
     name: 'Amaury Faure',
     photo: '/photo.jpg',
-    bio: `Engineering student at Centrale Lille,
- Data Analyst intern at Cafeyn/Blendle,
- based in Paris.`,
+    bio: `Data Analyst at Cafeyn/Blendle,
+ based in Paris.
+ Interested by press and environment`,
     contacts: {
       email: 'faureamaury@gmail.com',
       facebook: 'amaury.faure.14',

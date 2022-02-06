@@ -8,7 +8,9 @@ import Meta from './Meta';
 import Tags from './Tags';
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
-require(`katex/dist/katex.min.css`)
+
+require('katex/dist/katex.min.css');
+
 type Props = {
   post: Node
 };

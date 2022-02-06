@@ -6,7 +6,7 @@ import Post from '../components/Post';
 import { useSiteMetadata } from '../hooks';
 import type { MarkdownRemark } from '../types';
 
-require(`katex/dist/katex.min.css`)
+require('katex/dist/katex.min.css');
 
 type Props = {
   data: {

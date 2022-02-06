@@ -11,7 +11,7 @@ tags:
     - "Engineering"
     - "DBT"
 description: "In this post we discover what is DBT, how it works and why it's useful"
-socialImage: ""
+socialImage: "/media/article_images/dbt/dbt-logo.png"
 ---
 
 As a Data Analyst, I'm very interested in Analytics Engineering, analytics and visualization.

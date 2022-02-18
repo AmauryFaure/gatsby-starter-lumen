@@ -27,7 +27,7 @@ It's a 6 layer neural network containing so-called "encoders" and "decoders". Th
 
 Let's say you have two persons, person A speaks French and English, person B speaks English and Dutch. Combining person A and B you are able to translate some content from French to Dutch. Person A will encode your content from French to English, and person B will decode your content from Enligh to Dutch. The Transformers encoders and decoders works the same.
 
-![Transformers architecture](static/media/article_images/bert_introduction/The_transformer_encoder_decoder_stack.png "Transformers architecture. Source: [The Illustrated Transfomers](https://jalammar.github.io/illustrated-transformer/)")
+![Transformers architecture](/media/article_images/bert_introduction/The_transformer_encoder_decoder_stack.png "Transformers architecture. Source: [The Illustrated Transfomers](https://jalammar.github.io/illustrated-transformer/)")
 
 ### Layers
 The transformers model is composed of 6 layers as shown in the image above. In each encoder you have two sub-layers:
@@ -41,7 +41,7 @@ In each decoder you have 3 sub-layers:
 - Another "multi-head" attention layer to interpret the encoder input
 - A feed forward neural network.
 
-![Decoder architecture](static/media/article_images/bert_introduction/decoder_architecture.png "The full architectures of an encoder and a decoder layer. Source:[Attention is all you need](https://arxiv.org/abs/1706.03762)")
+![Decoder architecture](/media/article_images/bert_introduction/decoder_architecture.png "The full architectures of an encoder and a decoder layer. Source:[Attention is all you need](https://arxiv.org/abs/1706.03762)")
 
 ### Attention
 You may wonder what is "attention" and you would be right as it is the heart of the model. 
